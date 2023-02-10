@@ -25,7 +25,7 @@ function HomePage() {
                   <button>My Projects</button>
                 </Link>
                 <a
-                  href=""
+                  href="#about-container"
                   className="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   <button>About</button>
@@ -39,9 +39,11 @@ function HomePage() {
       </div>
 
       <div className="container bg-zinc-900 max-w-full" id="about-container">
-        <div className="grid grid-rows-1 w-screen h-4/6 justify-items-center items-center">
-          <h2 className="text-5xl text-white">About Me</h2>
-          <div className="bg-white h-1 w-6/12 mb-5"></div>
+        <div className="grid grid-rows-1 w-screen h-3/6 justify-items-center items-center">
+          <h2 className="text-5xl text-white items-start">
+            About Me
+            <div className="bg-white h-1 w-full"></div>
+          </h2>
           <div className="w-6/12 text-center">
             <p className="text-white">
               I enjoy building amazing applications that bring value to people
@@ -54,10 +56,16 @@ function HomePage() {
           </div>
         </div>
 
-        <div className="grid grid-rows-1 w-screen h-2/6 justify-items-center">
-          <h2 className="text-white text-2xl">Skills</h2>
-          <div className="text-white">
-            <p>HTML, CSS, JavaScript, React, Express, Node, MongoDB, Mongoose, Python, PostgreSQL, Django, Git, GitHub, BootStrap, Tailwind, Semantic UI </p>
+        <div className="grid grid-rows-1 w-screen h-3/6 justify-items-center items-center ">
+          <h2 className="text-white text-2xl -mb-12">Technical Skills
+          <div className="bg-white h-1 w-full mb-10"></div>
+          </h2>
+          <div className="text-white mb-10 h-full">
+            <p>
+              HTML, CSS, JavaScript, React, Express, Node, MongoDB, Mongoose,
+              Python, PostgreSQL, Django, Git, GitHub, BootStrap, Tailwind,
+              Semantic UI
+            </p>
           </div>
         </div>
       </div>

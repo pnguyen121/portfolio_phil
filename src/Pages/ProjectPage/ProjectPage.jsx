@@ -4,7 +4,10 @@ function ProjectPage() {
   return (
     <>
       <Header />
-      <h2>I am the project page put projects here bozo</h2>
+      <div className="container bg-zinc-900" id="project-container">
+
+
+      </div>
     </>
   );
 }
