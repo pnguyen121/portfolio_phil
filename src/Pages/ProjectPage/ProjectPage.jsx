@@ -30,19 +30,17 @@ function ProjectPage() {
                   <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div class="flex min-h-full flex-col items-center justify-center">
                       <h1 class="text-3xl font-bold">ATM WORKS</h1>
-                      <p class="text-lg">Photographer & Art</p>
+                      <p class="text-lg">ATM Business Management App</p>
                       <p class="text-base">
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                        Python3, PostgreSQL, Django, Mapbox API, Bootstrap,
+                        JavaScript
                       </p>
-                      <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                        Read More
-                      </button>
-                      <a href="">
+                      <a href="https://atmworks.fly.dev/" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                           Project Link
                         </button>
                       </a>
-                      <a href="">
+                      <a href="https://bit.ly/AtmWorksPhil" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                           GitHub
                         </button>
@@ -66,13 +64,21 @@ function ProjectPage() {
                   <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div class="flex min-h-full flex-col items-center justify-center">
                       <h1 class="text-3xl font-bold">Nike SNKRS</h1>
-                      <p class="text-lg">Photographer & Art</p>
+                      <p class="text-lg">Nike Snkrs App Clone</p>
                       <p class="text-base">
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                        MongoDB, Express, React, Node,(MERN), AWS S3 Buckets
+                        Semantic UI
                       </p>
-                      <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                        Read More
-                      </button>
+                      <a href="https://bit.ly/NikeAppx" target="_blank">
+                        <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
+                          Project Link
+                        </button>
+                      </a>
+                      <a href="https://bit.ly/NikeAppPhil" target="_blank">
+                        <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
+                          GitHub
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -95,19 +101,16 @@ function ProjectPage() {
                   <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div class="flex min-h-full flex-col items-center justify-center">
                       <h1 class="text-3xl font-bold">Hype-Talk</h1>
-                      <p class="text-lg">Photographer & Art</p>
+                      <p class="text-lg">Sneaker Community Forum</p>
                       <p class="text-base">
-                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                        MongoDB, Mongoose, Express, Node, JavaScript, oAUTH, HTML, CSS, Bootstrap
                       </p>
-                      <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
-                        Read More
-                      </button>
-                      <a href="">
+                      <a href="https://bit.ly/HypeTalkx" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                           Project Link
                         </button>
                       </a>
-                      <a href="">
+                      <a href="https://bit.ly/HypeTalkPhil" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                           GitHub
                         </button>
