@@ -20,13 +20,13 @@ function HomePage() {
               <div className="pt-5 mt-7">
                 <Link
                   to={"/projects"}
-                  className="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 border border-black rounded mr-5"
+                  className="bg-white hover:bg-pinkphil text-black font-bold py-2 px-4 border border-black rounded mr-5"
                 >
                   <button>My Projects</button>
                 </Link>
                 <a
                   href="#about-container"
-                  className="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
+                  className="bg-transparent hover:bg-purplephil text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   <button>About</button>
                 </a>
