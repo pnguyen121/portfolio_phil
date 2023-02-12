@@ -5,6 +5,7 @@ import {Route, Routes, Navigate } from "react-router-dom"
 
 import HomePage from './Pages/HomePage'
 import ProjectPage from './Pages/ProjectPage/ProjectPage'
+import AboutPage from './Pages/AboutPage/AboutPage'
 
 function App() {
   
@@ -18,6 +19,10 @@ function App() {
       <Route
           path="/projects"
           element={<ProjectPage />}
+        />
+      <Route
+          path="/about"
+          element={<AboutPage />}
         />
 
 
