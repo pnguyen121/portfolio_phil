@@ -29,22 +29,80 @@ function AboutPage() {
                 confident I will be an asset on whatever team I join.
               </p>
               <p className="text-white mb-5">
-                Outside of work I am an avid sneaker lover, corgi dad, gamer, gym rat
-                and I own my own ATM business!
+                Outside of work I am an avid sneaker lover, corgi dad, gamer,
+                gym rat and I own my own ATM business!
               </p>
             </div>
             <div className="w-9/12 text-center">
-                <img src="https://imgur.com/hmbmHh6.png" className="rounded-full" alt="" />
+              <img
+                src="https://i.imgur.com/QfWXlZ7.png"
+                className="rounded-full"
+                alt=""
+              />
             </div>
           </div>
         </div>
 
-        <div className="grid grid-rows-1 w-screen h-3/6 justify-items-center items-center ">
+        <div className="grid grid-rows-1 w-screen h-2/6 justify-items-center items-center ">
           <h2 className="text-white text-2xl -mb-12">
             Technical Skills
             <div className="bg-white h-1 w-full mb-10"></div>
           </h2>
           <div className="text-white mb-10 h-full">
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              HTML
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              CSS
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              JavaScript
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              React
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              Express
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              Node.JS
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              MongoDB
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              Mongoose
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              Python
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              PostgreSQL
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              Django
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              Tailwind CSS
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              BootStrap
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              Semantic UI React
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              Git
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              GitHub
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              AWS S3 Buckets
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+              MongoDB Atlas
+            </button>
             <p>
               HTML, CSS, JavaScript, React, Express, Node, MongoDB, Mongoose,
               Python, PostgreSQL, Django, Git, GitHub, BootStrap, Tailwind,
@@ -52,7 +110,6 @@ function AboutPage() {
             </p>
           </div>
         </div>
-        <h2>HI I AM A ABOUT PAGE</h2>
       </div>
     </>
   );
