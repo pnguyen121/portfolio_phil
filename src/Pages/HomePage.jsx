@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div>
-      <Header />
+      <Header isAbout={false} isProject={false}/>
       <div className="flex container mx-auto max-w-full" id="main-container">
         <div className="grid grid-cols-2 w-full h-full">
           <div

@@ -4,7 +4,7 @@ import Footer from "../../Components/Footer/Footer";
 function ProjectPage() {
   return (
     <>
-      <Header />
+      <Header isAbout={false} isProject={true}/>
       <div
         className="container bg-zinc-900 h-screen w-screen max-w-full"
         id="project-container"

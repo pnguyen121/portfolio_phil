@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
 
-import {GitHubLogoIcon, LinkedInLogoIcon} from "@radix-ui/react-icons";
+import {GitHubLogoIcon, Half2Icon, LinkedInLogoIcon} from "@radix-ui/react-icons";
 
 
 
 
-function Header() {
+function Header({isAbout, isProject}) {
   return (
     <nav class="bg-zinc-700 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-zinc-800">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
@@ -69,14 +69,23 @@ function Header() {
                 <LinkedInLogoIcon />
               </a>
             </li>
-            {/* <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            {/* THIS WORKS NOW ADD STUFF */}
+            {isAbout ? (<li>
+              <Link
+                to={"/projects"}
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-purplephil md:hover:bg-transparent md:hover:text-purplephil md:p-0 md:dark:hover:text-pinkphil dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Contact
-              </a>
-            </li> */}
+                Projects
+              </Link>
+            </li>) : "" }
+            {isProject ? (<li>
+              <Link
+                to={"/about"}
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-purplephil md:hover:bg-transparent md:hover:text-purplephil md:p-0 md:dark:hover:text-pinkphil dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              >
+                About
+              </Link>
+            </li>) : "" }
           </ul>
         </div>
       </div>

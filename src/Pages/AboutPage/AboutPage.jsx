@@ -3,7 +3,7 @@ import Header from "../../Components/Header/Header";
 function AboutPage() {
   return (
     <>
-      <Header />
+      <Header isAbout={true} isProject={false}/>
       <div
         className="container mx-auto h-screen max-w-full bg-zinc-900"
         id="aboutpage-container"
