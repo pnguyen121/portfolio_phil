@@ -7,14 +7,14 @@ function HomePage() {
   return (
     <div>
       <Header />
-      <div className="container mx-auto max-w-full" id="main-container">
+      <div className="flex container mx-auto max-w-full" id="main-container">
         <div className="grid grid-cols-2 w-full h-full">
           <div
             className="bg-zinc-900 flex items-center justify-center"
             id="hero-column-1"
           >
             <div className="p-5 text-white mb-20 mr-9">
-              <h2 className="text-5xl mb-3">I Am Phil Nguyen</h2>
+              <h2 className="text-5xl mb-3 ">I Am Phil Nguyen</h2>
               <h5>Full Stack Developer, Entreprenuer, Student of Life</h5>
 
               <div className="pt-5 mt-7">
