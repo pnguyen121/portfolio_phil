@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 
+import {
+  GitHubLogoIcon,
+  Half2Icon,
+  LinkedInLogoIcon,
+} from "@radix-ui/react-icons";
 
-import {GitHubLogoIcon, Half2Icon, LinkedInLogoIcon} from "@radix-ui/react-icons";
-
-
-
-
-function Header({isAbout, isProject}) {
+function Header({ isAbout, isProject }) {
   return (
     <nav class="bg-zinc-700 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-zinc-800">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <Link to={'/'} class="flex items-center">
+        <Link to={"/"} class="flex items-center">
           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
             PHIL N
           </span>
@@ -44,15 +44,30 @@ function Header({isAbout, isProject}) {
           id="navbar-cta"
         >
           <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-zinc-800 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-zinc-800 md:dark:bg-zinc-800 dark:border-gray-700">
-            {/* <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white bg-zinc-700 rounded md:bg-transparent md:text-zinc-400 md:p-0 dark:text-white"
-                aria-current="page"
-              >
-                Projects
-              </a>
-            </li> */}
+            {isAbout ? (
+              <li>
+                <Link
+                  to={"/projects"}
+                  class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-purplephil md:hover:bg-transparent md:hover:text-purplephil md:p-0 md:dark:hover:text-pinkphil dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                  Projects
+                </Link>
+              </li>
+            ) : (
+              ""
+            )}
+            {isProject ? (
+              <li>
+                <Link
+                  to={"/about"}
+                  class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-purplephil md:hover:bg-transparent md:hover:text-purplephil md:p-0 md:dark:hover:text-pinkphil dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                  About
+                </Link>
+              </li>
+            ) : (
+              ""
+            )}
             <li>
               <a
                 href="https://github.com/pnguyen121"
@@ -69,23 +84,6 @@ function Header({isAbout, isProject}) {
                 <LinkedInLogoIcon />
               </a>
             </li>
-            {/* THIS WORKS NOW ADD STUFF */}
-            {isAbout ? (<li>
-              <Link
-                to={"/projects"}
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-purplephil md:hover:bg-transparent md:hover:text-purplephil md:p-0 md:dark:hover:text-pinkphil dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Projects
-              </Link>
-            </li>) : "" }
-            {isProject ? (<li>
-              <Link
-                to={"/about"}
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-purplephil md:hover:bg-transparent md:hover:text-purplephil md:p-0 md:dark:hover:text-pinkphil dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                About
-              </Link>
-            </li>) : "" }
           </ul>
         </div>
       </div>
