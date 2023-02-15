@@ -24,12 +24,11 @@ function HomePage() {
                 >
                   <button>My Projects</button>
                 </Link>
-                <a
-                  href="#about-container"
+                <Link to={"/about"}
                   className="bg-transparent hover:bg-purplephil text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   <button>About</button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

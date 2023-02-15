@@ -48,7 +48,7 @@ function AboutPage() {
             Technical Skills
             <div className="bg-white h-1 w-full mb-10"></div>
           </h2>
-          <div className="text-white mb-10 h-full">
+          <div className="text-white mb-10 h-full pt-5">
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
               HTML
             </button>
@@ -88,6 +88,7 @@ function AboutPage() {
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
               BootStrap
             </button>
+            <div className="flex justify-center pt-5">
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
               Semantic UI React
             </button>
@@ -103,11 +104,7 @@ function AboutPage() {
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
               MongoDB Atlas
             </button>
-            <p>
-              HTML, CSS, JavaScript, React, Express, Node, MongoDB, Mongoose,
-              Python, PostgreSQL, Django, Git, GitHub, BootStrap, Tailwind,
-              Semantic UI
-            </p>
+            </div>
           </div>
         </div>
       </div>
