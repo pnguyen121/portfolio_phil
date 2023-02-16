@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 
 import {
   GitHubLogoIcon,
-  Half2Icon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 

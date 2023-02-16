@@ -6,6 +6,7 @@ import {Route, Routes, Navigate } from "react-router-dom"
 import HomePage from './Pages/HomePage'
 import ProjectPage from './Pages/ProjectPage/ProjectPage'
 import AboutPage from './Pages/AboutPage/AboutPage'
+import ContactPage from './Pages/ContactPage/ContactPage'
 
 function App() {
 
@@ -24,6 +25,10 @@ function App() {
       <Route
           path="/about"
           element={<AboutPage />}
+        />
+      <Route
+          path="/contact"
+          element={<ContactPage />}
         />
 
 

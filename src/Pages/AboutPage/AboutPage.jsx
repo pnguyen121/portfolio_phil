@@ -1,9 +1,11 @@
 import Header from "../../Components/Header/Header";
+import Modal from "../../Components/Modal/Modal";
+
 
 function AboutPage() {
   return (
     <>
-      <Header isAbout={true} isProject={false}/>
+      <Header isAbout={true} isProject={false} />
       <div
         className="container mx-auto h-screen max-w-full bg-zinc-900"
         id="aboutpage-container"
@@ -89,22 +91,31 @@ function AboutPage() {
               BootStrap
             </button>
             <div className="flex justify-center pt-5">
-            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
-              Semantic UI React
-            </button>
-            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
-              Git
-            </button>
-            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
-              GitHub
-            </button>
-            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
-              AWS S3 Buckets
-            </button>
-            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
-              MongoDB Atlas
-            </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+                Semantic UI React
+              </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+                Git
+              </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+                GitHub
+              </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+                AWS S3 Buckets
+              </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
+                MongoDB Atlas
+              </button>
             </div>
+          </div>
+        </div>
+
+        <div className="grid-cols-1 w-screen h-40 bg-zinc-900">
+          <div className="grid text-white text-5xl h-20 justify-items-center pt-7 mb-5">
+            Contact
+          </div>
+          <div className="grid grid-rows-1 bg-zinc-900 justify-items-center">
+            <Modal />
           </div>
         </div>
       </div>
