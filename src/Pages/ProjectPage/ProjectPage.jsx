@@ -11,14 +11,13 @@ function ProjectPage() {
       >
         <div className="grid grid-rows-1 h-1/6 justify-items-center">
           <div className="text-white h-2/6 mt-6">
-            <p className="text-5xl text-white">My Projects</p>
+            <p className="text-5xl text-white ">My Projects</p>
           </div>
         </div>
 
         <div className="grid grid-rows-1 justify-between h-1/6 max-w-full h-fit">
-          <p>hi</p>
-          <div className="columns-2 w-screen">
-            <div class="flex items-center justify-center bg-zinc-900">
+          <div className="grid grid-cols-1 w-screen sm:max-w-full sm:grid-cols-2">
+            <div class="flex items-center justify-center bg-zinc-900 mb-5 sm:p-5 sm:mb-0">
               <div class="group h-96 w-full [perspective:1000px]">
                 <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div class="absolute inset-0">
@@ -52,7 +51,7 @@ function ProjectPage() {
               </div>
             </div>
 
-            <div class="flex items-center justify-center bg-zinc-900">
+            <div class="flex items-center justify-center bg-zinc-900 sm:p-5">
               <div class="group h-96 w-full [perspective:1000px]">
                 <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div class="absolute inset-0">
@@ -87,10 +86,10 @@ function ProjectPage() {
             </div>
           </div>
         </div>
-        <div className="grid grid-rows-1 justify-between max-w-full h-fit mb-5 mt-5">
-          <div className="columns-1 w-screen">
-            <div class="flex items-center justify-center bg-zinc-900">
-              <div class="group h-96 w-8/12 [perspective:1000px]">
+        <div className="grid grid-rows-1 justify-between max-w-full h-fit mb-5 sm:mt-5 ">
+          <div className="grid grid-cols-1 w-screen sm:w-screen">
+            <div class="flex items-center justify-center bg-zinc-900 sm:p-5">
+              <div class="group h-96 w-full [perspective:1000px] sm:w-8/12">
                 <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                   <div class="absolute inset-0">
                     <img
