@@ -86,8 +86,8 @@ function ProjectPage() {
             </div>
           </div>
         </div>
-        <div className="grid grid-rows-1 justify-between max-w-full h-fit mb-5 sm:mt-5 ">
-          <div className="grid grid-cols-1 w-screen sm:w-screen">
+        <div className="grid grid-rows-1 justify-between max-w-full h-fit bg-zinc-900 sm:mt-5 ">
+          <div className="grid grid-cols-1 w-screen mt-5 sm:w-screen">
             <div class="flex items-center justify-center bg-zinc-900 sm:p-5">
               <div class="group h-96 w-full [perspective:1000px] sm:w-8/12">
                 <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">

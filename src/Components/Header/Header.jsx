@@ -14,7 +14,7 @@ function Header({ isAbout, isProject }) {
             PHIL N
           </span>
         </Link>
-        <div class="flex md:order-2">
+        {/* <div class="flex md:order-2">
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
@@ -37,7 +37,7 @@ function Header({ isAbout, isProject }) {
               ></path>
             </svg>
           </button>
-        </div>
+        </div> */}
         <div
           class="items-center justify-end hidden w-full md:flex md:w-11/12 md:order-1"
           id="navbar-cta"

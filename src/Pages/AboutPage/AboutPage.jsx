@@ -10,12 +10,12 @@ function AboutPage() {
         className="container mx-auto h-screen max-w-full bg-zinc-900"
         id="aboutpage-container"
       >
-        <div className="grid grid-rows-1 w-screen justify-items-center text-white text-5xl pt-5">
+        <div className="grid grid-rows-1 w-screen justify-items-center text-white text-5xl pt-5 sm:visible">
           About
         </div>
-        <div className="grid grid-rows-1 w-screen h-3/6 justify-items-center items-center">
-          <div className="grid grid-cols-2 w-screen h-full justify-items-center items-center">
-            <div className="w-9/12 text-center">
+        <div className="grid grid-rows-1 w-screen h-full bg-zinc-900 sm:h-3/6 justify-items-center items-center">
+          <div className="grid-cols-1 w-screen h-full justify-items-center items-center sm:grid sm:grid-cols-2">
+            <div className="w-full p-5 sm:w-9/12 text-center">
               <h2 className="text-4xl text-white items-start mb-5">
                 About Me
                 {/* <div className="bg-white h-1 w-full"></div> */}
@@ -35,7 +35,7 @@ function AboutPage() {
                 gym rat and I own my own ATM business!
               </p>
             </div>
-            <div className="w-9/12 text-center">
+            <div className="grid grid-cols-1 w-full sm:w-9/12 text-center">
               <img
                 src="https://i.imgur.com/QfWXlZ7.png"
                 className="rounded-full"
@@ -45,12 +45,12 @@ function AboutPage() {
           </div>
         </div>
 
-        <div className="grid grid-rows-1 w-screen h-2/6 justify-items-center items-center ">
-          <h2 className="text-white text-2xl -mb-12">
+        <div className="grid grid-cols-1 bg-zinc-900 sm:grid sm:grid-rows-1 sm:w-screen sm:h-2/6 justify-items-center items-center">
+          <h2 className="text-white text-2xl mb-5 sm:-mb-12">
             Technical Skills
             <div className="bg-white h-1 w-full mb-10"></div>
           </h2>
-          <div className="text-white mb-10 h-full pt-5">
+          <div className="text-white w-80 h-full sm:w-11/12 sm:mb-8 sm:h-full sm:pt-5 ">
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
               HTML
             </button>
@@ -90,7 +90,22 @@ function AboutPage() {
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
               BootStrap
             </button>
-            <div className="flex justify-center pt-5">
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+                Semantic UI React
+              </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+                Git
+              </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+                GitHub
+              </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+                AWS S3 Buckets
+              </button>
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+                MongoDB Atlas
+              </button>
+            <div className="flex justify-center pt-5 w-11/12 invisible sm:visible sm:pt-2">
               <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
                 Semantic UI React
               </button>
@@ -110,7 +125,7 @@ function AboutPage() {
           </div>
         </div>
 
-        <div className="grid-cols-1 w-screen h-40 bg-zinc-900">
+        <div className="grid-cols-1 w-screen h-44 bg-zinc-900">
           <div className="grid text-white text-5xl h-20 justify-items-center pt-7 mb-5">
             Contact
           </div>
