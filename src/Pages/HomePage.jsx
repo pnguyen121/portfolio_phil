@@ -8,12 +8,12 @@ function HomePage() {
     <div>
       <Header isAbout={false} isProject={false}/>
       <div className="flex container mx-auto max-w-full" id="main-container">
-        <div className="grid grid-cols-2 w-full h-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 h-5/6 w-full sm:h-full">
           <div
-            className="bg-zinc-900 flex items-center justify-center"
+            className="bg-[url('src/assets/images/port-background-good.png')] h-screen bg-cover bg-right sm:bg-[url('null')] sm:bg-zinc-900 flex items-center justify-center"
             id="hero-column-1"
           >
-            <div className="p-5 text-white mb-20 mr-9">
+            <div className="p-5 text-white h-2/5 mb-20 mr-9">
               <h2 className="text-5xl mb-3 ">I Am Phil Nguyen</h2>
               <h5>Full Stack Developer, Entreprenuer, Student of Life</h5>
 
@@ -36,8 +36,6 @@ function HomePage() {
           <div className="bg-blue-300" id="hero-column-2"></div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }
