@@ -35,7 +35,7 @@ function AboutPage() {
                 gym rat and I own my own ATM business!
               </p>
             </div>
-            <div className="grid grid-cols-1 w-full sm:w-9/12 text-center">
+            <div className="grid grid-cols-1 w-full sm:w-7/12 text-center">
               <img
                 src="https://i.imgur.com/QfWXlZ7.png"
                 className="rounded-full"
