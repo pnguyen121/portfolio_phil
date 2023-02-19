@@ -10,7 +10,7 @@ function AboutPage() {
         className="container mx-auto h-screen max-w-full bg-zinc-900"
         id="aboutpage-container"
       >
-        <div className="grid grid-rows-1 w-screen justify-items-center text-white text-5xl pt-5 sm:visible">
+        <div className="grid grid-rows-1 w-screen justify-items-center text-white text-5xl pt-5 hidden sm:visible">
           About
         </div>
         <div className="grid grid-rows-1 w-screen h-full bg-zinc-900 sm:h-3/6 justify-items-center items-center">
