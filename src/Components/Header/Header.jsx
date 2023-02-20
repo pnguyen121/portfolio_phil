@@ -7,10 +7,10 @@ import {
 
 function Header({ isAbout, isProject }) {
   return (
-    <nav class="bg-zinc-700 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-zinc-800">
+    <nav class="bg-zinc-800 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-zinc-800">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
         <Link to={"/"} class="flex items-center">
-          <span class="self-center text-xl p-2 font-semibold whitespace-nowrap dark:text-white">
+          <span class="self-center text-xl p-2 font-semibold whitespace-nowrap text-white dark:text-white">
             PHIL N
           </span>
         </Link>
@@ -42,7 +42,7 @@ function Header({ isAbout, isProject }) {
           class="grid items-center justify-end w-6/12 md:flex md:w-11/12 md:order-1"
           id="navbar-cta"
         >
-          <ul class="flex flex-row p-2 rounded-lg items-center justify-items-center bg-zinc-800 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-zinc-800 md:dark:bg-zinc-800 dark:border-gray-700">
+          <ul class="flex flex-row p-2 rounded-lg items-center justify-items-center bg-zinc-800 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-zinc-800 dark:bg-zinc-800 md:dark:bg-zinc-800 dark:border-gray-700">
             {isAbout ? (
               <li>
                 <Link
