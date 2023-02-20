@@ -10,7 +10,7 @@ function HomePage() {
       <div className="flex container mx-auto max-w-full" id="main-container">
         <div className="grid grid-cols-1 sm:grid-cols-2 h-5/6 w-full sm:h-full">
           <div
-            className="bg-[url('./portfolio-phil/src/assets/images/port-background-good.png')] h-screen bg-cover bg-right sm:bg-[url('null')] sm:bg-zinc-900 flex items-center justify-center"
+            className="bg-[url('https://imgur.com/8csQzXk.png')] h-screen bg-cover bg-right sm:bg-[url('null')] sm:bg-zinc-900 flex items-center justify-center"
             id="hero-column-1"
           >
             <div className="p-5 text-white h-2/5 mb-20 mr-9">
