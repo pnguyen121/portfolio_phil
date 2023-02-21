@@ -17,20 +17,20 @@ function HomePage() {
               <h2 className="text-5xl mb-3 ">I Am Phil Nguyen</h2>
               <h5>Full Stack Developer, Entreprenuer, Student of Life</h5>
 
-              <div className="pt-5 mt-7">
+              <div className="flex flex-wrap mt-7">
                 <Link
                   to={"/projects"}
-                  className="bg-white hover:bg-pinkphil text-black font-bold py-2 px-4 border border-black rounded mr-5"
+                  className="bg-white hover:bg-pinkphil mt-5 text-black font-bold py-2 px-4 border border-black rounded mr-5"
                 >
                   <button>My Projects</button>
                 </Link>
                 <Link to={"/about"}
-                  className="bg-transparent hover:bg-purplephil text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
+                  className="bg-transparent hover:bg-purplephil mt-5 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   <button>About</button>
                 </Link>
                 <a href="https://docs.google.com/document/d/1HBbeEQH0DDufaK_tcxklTIohajOSRi42vzaSaGQ4asc/edit?usp=sharing" target="_blank"
-                  className="bg-transparent hover:bg-purplephil ml-5 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
+                  className="bg-transparent hover:bg-purplephil mt-5 sm:ml-5 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   <button>Resume</button>
                 </a>
