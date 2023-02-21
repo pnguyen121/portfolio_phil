@@ -50,7 +50,7 @@ function AboutPage() {
             Technical Skills
             <div className="bg-white h-1 w-full mb-10"></div>
           </h2>
-          <div className="text-white w-80 h-full sm:w-11/12 sm:mb-8 sm:h-full sm:pt-5 ">
+          <div className="flex flex-wrap text-white w-80 h-full sm:w-11/12 sm:mb-8 sm:h-full sm:pt-5 justify-center justify-items-center">
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
               HTML
             </button>
@@ -90,22 +90,22 @@ function AboutPage() {
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
               BootStrap
             </button>
-            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
                 Semantic UI React
               </button>
-              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
                 Git
               </button>
-              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
                 GitHub
               </button>
-              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
                 AWS S3 Buckets
               </button>
-              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:invisible">
+              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
                 MongoDB Atlas
               </button>
-            <div className="flex justify-center pt-5 w-11/12 invisible sm:visible sm:pt-2">
+            <div className="flex justify-center pt-5 w-11/12 invisible sm:visible sm:pt-5">
               <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
                 Semantic UI React
               </button>
