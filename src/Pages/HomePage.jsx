@@ -29,6 +29,11 @@ function HomePage() {
                 >
                   <button>About</button>
                 </Link>
+                <a href="https://docs.google.com/document/d/1HBbeEQH0DDufaK_tcxklTIohajOSRi42vzaSaGQ4asc/edit?usp=sharing" target="_blank"
+                  className="bg-transparent hover:bg-purplephil ml-5 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
+                >
+                  <button>Resume</button>
+                </a>
               </div>
             </div>
           </div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import {
   GitHubLogoIcon,
   LinkedInLogoIcon,
+  ReaderIcon,
 } from "@radix-ui/react-icons";
 
 function Header({ isAbout, isProject }) {
