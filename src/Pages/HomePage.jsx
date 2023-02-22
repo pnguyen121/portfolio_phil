@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div>
-      <Header isAbout={false} isProject={false}/>
+      <Header isAbout={false} isProject={false} />
       <div className="flex container mx-auto max-w-full" id="main-container">
         <div className="grid grid-cols-1 sm:grid-cols-2 h-5/6 w-full sm:h-full">
           <div
@@ -24,12 +24,15 @@ function HomePage() {
                 >
                   <button>My Projects</button>
                 </Link>
-                <Link to={"/about"}
+                <Link
+                  to={"/about"}
                   className="bg-transparent hover:bg-purplephil mt-5 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   <button>About</button>
                 </Link>
-                <a href="https://docs.google.com/document/d/1HBbeEQH0DDufaK_tcxklTIohajOSRi42vzaSaGQ4asc/edit?usp=sharing" target="_blank"
+                <a
+                  href="https://docs.google.com/document/d/1HBbeEQH0DDufaK_tcxklTIohajOSRi42vzaSaGQ4asc/edit?usp=sharing"
+                  target="_blank"
                   className="bg-transparent hover:bg-purplephil mt-5 sm:ml-5 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded"
                 >
                   <button>Resume</button>

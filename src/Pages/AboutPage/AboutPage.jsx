@@ -1,7 +1,6 @@
 import Header from "../../Components/Header/Header";
 import Modal from "../../Components/Modal/Modal";
 
-
 function AboutPage() {
   return (
     <>
@@ -91,20 +90,20 @@ function AboutPage() {
               BootStrap
             </button>
             <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
-                Semantic UI React
-              </button>
-              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
-                Git
-              </button>
-              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
-                GitHub
-              </button>
-              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
-                AWS S3 Buckets
-              </button>
-              <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
-                MongoDB Atlas
-              </button>
+              Semantic UI React
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
+              Git
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
+              GitHub
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
+              AWS S3 Buckets
+            </button>
+            <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full sm:hidden">
+              MongoDB Atlas
+            </button>
             <div className="flex justify-center pt-5 w-11/12 invisible sm:visible sm:pt-5">
               <button class="bg-zinc-600 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded-full">
                 Semantic UI React

@@ -39,7 +39,11 @@ function Modal() {
                   </p>
                   <p>
                     <i class="fa-regular fa-file"></i>
-                    <a className="hover:text-pinkphil" href="https://docs.google.com/document/d/1HBbeEQH0DDufaK_tcxklTIohajOSRi42vzaSaGQ4asc/edit?usp=sharing" target="_blank">
+                    <a
+                      className="hover:text-pinkphil"
+                      href="https://docs.google.com/document/d/1HBbeEQH0DDufaK_tcxklTIohajOSRi42vzaSaGQ4asc/edit?usp=sharing"
+                      target="_blank"
+                    >
                       {" "}
                       Resume
                     </a>

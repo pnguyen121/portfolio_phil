@@ -4,7 +4,7 @@ import Footer from "../../Components/Footer/Footer";
 function ProjectPage() {
   return (
     <>
-      <Header isAbout={false} isProject={true}/>
+      <Header isAbout={false} isProject={true} />
       <div
         className="container bg-zinc-900 h-screen w-screen max-w-full"
         id="project-container"
@@ -19,7 +19,19 @@ function ProjectPage() {
           <div className="grid grid-cols-1 w-screen sm:max-w-full sm:grid-cols-2">
             <div class="flex items-center justify-center bg-zinc-900 mb-5 sm:p-5 sm:mb-0">
               <div class="group h-96 w-full [perspective:1000px]">
-                <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <div className="flex justify-items-center justify-center w-full mb-2 sm:hidden">
+                  <a href="https://atmworks.fly.dev/" target="_blank">
+                    <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
+                      Project Link
+                    </button>
+                  </a>
+                  <a href="https://bit.ly/AtmWorksPhil" target="_blank">
+                    <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
+                      GitHub
+                    </button>
+                  </a>
+                </div>
+                <div class="relative h-full w-full rounded-xl shadow-xl sm:transition-all sm:duration-500 sm:[transform-style:preserve-3d] sm:group-hover:[transform:rotateY(180deg)]">
                   <div class="absolute inset-0">
                     <img
                       class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -53,7 +65,19 @@ function ProjectPage() {
 
             <div class="flex items-center justify-center bg-zinc-900 sm:p-5">
               <div class="group h-96 w-full [perspective:1000px]">
-                <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <div className="flex justify-items-center justify-center w-full mt-10 mb-2 h- sm:hidden">
+                  <a href="https://bit.ly/NikeAppx" target="_blank">
+                    <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
+                      Project Link
+                    </button>
+                  </a>
+                  <a href="https://bit.ly/NikeAppPhil" target="_blank">
+                    <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
+                      GitHub
+                    </button>
+                  </a>
+                </div>
+                <div class="relative h-full w-full rounded-xl shadow-xl sm:transition-all sm:duration-500 sm:[transform-style:preserve-3d] sm:group-hover:[transform:rotateY(180deg)]">
                   <div class="absolute inset-0">
                     <img
                       class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -90,7 +114,19 @@ function ProjectPage() {
           <div className="grid grid-cols-1 w-screen mt-5 sm:w-screen">
             <div class="flex items-center justify-center bg-zinc-900 sm:p-5">
               <div class="group h-96 w-full [perspective:1000px] sm:w-8/12">
-                <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <div className="flex justify-items-center justify-center w-full mt-20 mb-2 h- sm:hidden">
+                  <a href="https://bit.ly/HypeTalkx" target="_blank">
+                    <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
+                      Project Link
+                    </button>
+                  </a>
+                  <a href="https://bit.ly/HypeTalkPhil" target="_blank">
+                    <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
+                      GitHub
+                    </button>
+                  </a>
+                </div>
+                <div class="relative h-full w-full rounded-xl shadow-xl sm:transition-all sm:duration-500 sm:[transform-style:preserve-3d] sm:group-hover:[transform:rotateY(180deg)]">
                   <div class="absolute inset-0">
                     <img
                       class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
@@ -103,7 +139,8 @@ function ProjectPage() {
                       <h1 class="text-3xl font-bold">Hype-Talk</h1>
                       <p class="text-lg">Sneaker Community Forum</p>
                       <p class="text-base">
-                        MongoDB, Mongoose, Express, Node, JavaScript, oAUTH, HTML, CSS, Bootstrap
+                        MongoDB, Mongoose, Express, Node, JavaScript, oAUTH,
+                        HTML, CSS, Bootstrap
                       </p>
                       <a href="https://bit.ly/HypeTalkx" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
