@@ -15,10 +15,10 @@ Portfolio site to host information about me and some of my projects. I am search
 
 # Screenshots:
 
-https://i.imgur.com/j4fFt8v.png
+![Home Page](https://i.imgur.com/j4fFt8v.png)
 
+![Projects Page](https://i.imgur.com/J0x7xp4.png)
 
-https://i.imgur.com/J0x7xp4.png
 
 
 
