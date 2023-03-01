@@ -38,7 +38,7 @@ function HomePage() {
                 >
                   <button>Resume</button>
                 </a>
-                <Modal isHome={true}/>
+                <Modal isHome={true} />
               </div>
             </div>
           </div>

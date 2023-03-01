@@ -15,10 +15,7 @@ function AboutPage() {
         <div className="grid grid-rows-1 w-screen h-full bg-zinc-900 sm:h-3/6 justify-items-center items-center">
           <div className="grid-cols-1 w-screen h-full justify-items-center items-center sm:grid sm:grid-cols-2">
             <div className="w-full p-5 sm:w-9/12 text-center">
-              <h2 className="text-4xl text-white items-start mb-5">
-                About Me
-                {/* <div className="bg-white h-1 w-full"></div> */}
-              </h2>
+              <h2 className="text-4xl text-white items-start mb-5">About Me</h2>
               <p className="text-white mb-5">
                 I enjoy building amazing applications that bring value to people
                 and businesses. I am a natural problem solver with a business
