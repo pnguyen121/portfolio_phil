@@ -1,5 +1,6 @@
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
+import Modal from "../Components/Modal/Modal";
 
 import { Link } from "react-router-dom";
 
@@ -37,6 +38,7 @@ function HomePage() {
                 >
                   <button>Resume</button>
                 </a>
+                <Modal isHome={true}/>
               </div>
             </div>
           </div>
