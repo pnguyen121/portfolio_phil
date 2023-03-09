@@ -35,7 +35,7 @@ function ProjectPage() {
                   <div class="absolute inset-0">
                     <img
                       class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
-                      src="https://imgur.com/zNwgoU7.png"
+                      src="https://i.imgur.com/Zi5ZK6o.png"
                       alt=""
                     />
                   </div>
