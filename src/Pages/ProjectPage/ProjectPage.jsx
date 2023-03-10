@@ -131,24 +131,23 @@ function ProjectPage() {
                   <div class="absolute inset-0">
                     <img
                       class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
-                      src="https://i.imgur.com/Zi5ZK6o.png"
+                      src="https://i.imgur.com/do79udy.jpg"
                       alt=""
                     />
                   </div>
                   <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div class="flex min-h-full flex-col items-center justify-center">
-                      <h1 class="text-3xl font-bold">ATM WORKS</h1>
-                      <p class="text-lg">ATM Business Management App</p>
+                      <h1 class="text-3xl font-bold">L.A Nails</h1>
+                      <p class="text-lg">Website for a local business</p>
                       <p class="text-base">
-                        Python3, PostgreSQL, Django, Mapbox API, Bootstrap,
-                        JavaScript
+                        Vanilla HTML, CSS, JavaScript
                       </p>
-                      <a href="https://atmworks.fly.dev/" target="_blank">
+                      <a href="https://monumental-semolina-ca5f46.netlify.app/" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                           Project Link
                         </button>
                       </a>
-                      <a href="https://bit.ly/AtmWorksPhil" target="_blank">
+                      <a href="https://github.com/pnguyen121/LA-NAILS-WEBSITE" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                           GitHub
                         </button>
