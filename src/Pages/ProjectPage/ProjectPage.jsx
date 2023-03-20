@@ -161,12 +161,12 @@ function ProjectPage() {
             <div class="flex items-center justify-center bg-zinc-900 sm:p-5">
               <div class="group h-96 w-full [perspective:1000px]">
                 <div className="flex justify-items-center justify-center w-full mt-10 mb-2 h- sm:hidden">
-                  <a href="https://bit.ly/NikeAppx" target="_blank">
+                  <a href="https://pnguyen121.github.io/Motivational-Quotes-Static/" target="_blank">
                     <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
                       Project Link
                     </button>
                   </a>
-                  <a href="https://bit.ly/NikeAppPhil" target="_blank">
+                  <a href="https://github.com/pnguyen121/Motivational_Quotes" target="_blank">
                     <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
                       GitHub
                     </button>
@@ -176,24 +176,23 @@ function ProjectPage() {
                   <div class="absolute inset-0">
                     <img
                       class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
-                      src="https://imgur.com/OfPFP0B.png"
+                      src="https://i.imgur.com/At0do9t.png"
                       alt=""
                     />
                   </div>
                   <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div class="flex min-h-full flex-col items-center justify-center">
-                      <h1 class="text-3xl font-bold">Nike SNKRS</h1>
-                      <p class="text-lg">Nike Snkrs App Clone</p>
+                      <h1 class="text-3xl font-bold">Motivational Quotes</h1>
+                      <p class="text-lg">Random Quote Via Third Party API</p>
                       <p class="text-base">
-                        MongoDB, Express, React, Node,(MERN), AWS S3 Buckets
-                        Semantic UI
+                        React, TailwindCSS, Third Party API
                       </p>
-                      <a href="https://bit.ly/NikeAppx" target="_blank">
+                      <a href="https://pnguyen121.github.io/Motivational-Quotes-Static/" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                           Project Link
                         </button>
                       </a>
-                      <a href="https://bit.ly/NikeAppPhil" target="_blank">
+                      <a href="https://github.com/pnguyen121/Motivational_Quotes" target="_blank">
                         <button class="mt-2 rounded-md bg-neutral-800 py-1 px-2 text-sm hover:bg-neutral-900">
                           GitHub
                         </button>
