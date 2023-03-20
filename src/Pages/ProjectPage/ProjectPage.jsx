@@ -111,11 +111,11 @@ function ProjectPage() {
           </div>
         </div>
         {/* 3 and 4 projects */}
-        <div className="grid grid-rows-1 justify-between h-1/6 max-w-full h-fit">
+        <div className="grid grid-rows-1 justify-between h-1/6 max-w-full h-fit mt-10">
           <div className="grid grid-cols-1 w-screen sm:max-w-full sm:grid-cols-2">
             <div class="flex items-center justify-center bg-zinc-900 mb-5 sm:p-5 sm:mb-0">
               <div class="group h-96 w-full [perspective:1000px]">
-                <div className="flex justify-items-center justify-center w-full mb-2 sm:hidden">
+                <div className="flex justify-items-center justify-center w-full mt-20 mb-2 sm:hidden">
                   <a href="https://atmworks.fly.dev/" target="_blank">
                     <button class="mt-2 rounded-md bg-white py-1 px-2 text-sm hover:bg-neutral-900">
                       Project Link
@@ -158,7 +158,7 @@ function ProjectPage() {
               </div>
             </div>
 
-            <div class="flex items-center justify-center bg-zinc-900 sm:p-5">
+            <div class="flex items-center justify-center bg-zinc-900 mt-20 sm:p-5">
               <div class="group h-96 w-full [perspective:1000px]">
                 <div className="flex justify-items-center justify-center w-full mt-10 mb-2 h- sm:hidden">
                   <a href="https://pnguyen121.github.io/Motivational-Quotes-Static/" target="_blank">
