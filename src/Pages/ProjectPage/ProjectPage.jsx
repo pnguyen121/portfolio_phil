@@ -158,7 +158,7 @@ function ProjectPage() {
               </div>
             </div>
 
-            <div class="flex items-center justify-center bg-zinc-900 mt-20 sm:p-5">
+            <div class="flex items-center justify-center bg-zinc-900 mt-20 sm:mt-0 sm:p-5">
               <div class="group h-96 w-full [perspective:1000px]">
                 <div className="flex justify-items-center justify-center w-full mt-10 mb-2 h- sm:hidden">
                   <a href="https://pnguyen121.github.io/Motivational-Quotes-Static/" target="_blank">
