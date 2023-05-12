@@ -16,7 +16,7 @@ function HomePage() {
             className="bg-[url('https://imgur.com/8csQzXk.png')] h-screen bg-cover bg-right sm:bg-[url('null')] sm:bg-zinc-900 flex items-center justify-center"
             id="hero-column-1"
           >
-            <motion.div animate={{x:0}} initial={{x:-1000}} transition={{delay: 1}} className="p-5 text-white h-2/5 mb-20 mr-9">
+            <motion.div animate={{x:0}} initial={{x:-1000}} transition={{type: "spring", delay: 1}} className="p-5 text-white h-2/5 mb-20 mr-9">
               <h2 className="text-5xl mb-3 ">I Am Phil Nguyen</h2>
               <h5>Full Stack Developer, Entreprenuer, Student of Life</h5>
 
