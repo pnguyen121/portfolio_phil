@@ -33,13 +33,13 @@ function AboutPage() {
                 gym rat and I own my own ATM business!
               </p>
             </motion.div>
-            <div className="grid grid-cols-1 w-full sm:w-7/12 text-center">
+            <motion.div className="grid grid-cols-1 w-full sm:w-7/12 text-center" animate={{opacity: 1, scale: 1}} transition={{ duration: 1}} initial={{opacity: 0, scale: 0.7}} >
               <img
                 src="https://i.imgur.com/QfWXlZ7.png"
                 className="rounded-full"
                 alt=""
               />
-            </div>
+            </motion.div>
           </div>
         </div>
 
