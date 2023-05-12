@@ -1,6 +1,8 @@
 import Header from "../../Components/Header/Header";
 import Modal from "../../Components/Modal/Modal";
 
+import { motion } from "framer-motion";
+
 function AboutPage() {
   return (
     <>
@@ -14,7 +16,7 @@ function AboutPage() {
         </div>
         <div className="grid grid-rows-1 w-screen h-full bg-zinc-900 sm:h-3/6 justify-items-center items-center">
           <div className="grid-cols-1 w-screen h-full justify-items-center items-center sm:grid sm:grid-cols-2">
-            <div className="w-full p-5 sm:w-9/12 text-center">
+            <motion.div className="w-full p-5 sm:w-9/12 text-center" animate={{x:0}} initial={{x:-1000}} transition={{type: "spring", delay: 1}}>
               <h2 className="text-4xl text-white items-start mb-5">About Me</h2>
               <p className="text-white mb-5">
                 I enjoy building amazing applications that bring value to people
@@ -30,7 +32,7 @@ function AboutPage() {
                 Outside of work I am an avid sneaker lover, corgi dad, gamer,
                 gym rat and I own my own ATM business!
               </p>
-            </div>
+            </motion.div>
             <div className="grid grid-cols-1 w-full sm:w-7/12 text-center">
               <img
                 src="https://i.imgur.com/QfWXlZ7.png"
