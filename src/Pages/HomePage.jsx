@@ -2,6 +2,8 @@ import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import Modal from "../Components/Modal/Modal";
 
+import { motion } from "framer-motion";
+
 import { Link } from "react-router-dom";
 
 function HomePage() {
@@ -14,11 +16,11 @@ function HomePage() {
             className="bg-[url('https://imgur.com/8csQzXk.png')] h-screen bg-cover bg-right sm:bg-[url('null')] sm:bg-zinc-900 flex items-center justify-center"
             id="hero-column-1"
           >
-            <div className="p-5 text-white h-2/5 mb-20 mr-9">
+            <motion.div animate={{x:0}} initial={{x:-1000}} transition={{delay: 1}} className="p-5 text-white h-2/5 mb-20 mr-9">
               <h2 className="text-5xl mb-3 ">I Am Phil Nguyen</h2>
               <h5>Full Stack Developer, Entreprenuer, Student of Life</h5>
 
-              <div className="flex flex-wrap mt-7">
+              <div className="flex flex-wrap ">
                 <Link
                   to={"/projects"}
                   className="bg-white hover:bg-pinkphil mt-5 text-black font-bold py-2 px-4 border border-black rounded mr-5"
@@ -40,7 +42,7 @@ function HomePage() {
                 </a>
                 <Modal isHome={true} />
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="bg-blue-300" id="hero-column-2"></div>
