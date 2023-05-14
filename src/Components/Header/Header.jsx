@@ -13,7 +13,7 @@ function Header({ isAbout, isProject }) {
     <nav class="bg-zinc-800 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-zinc-800">
       <div class="container flex flex-wrap items-center justify-between mx-auto">
         <Link to={"/"} class="flex items-center">
-          <motion.span whileHover={{scale: 2}} class="self-center text-xl p-2 font-semibold whitespace-nowrap text-white dark:text-white">
+          <motion.span whileHover={{scale: 2}} animate={{opacity: 1, scale: 1}} transition={{ duration: 1}} initial={{opacity: 0, scale: 0.7}} class="self-center text-xl p-2 font-semibold whitespace-nowrap text-white dark:text-white">
             PHIL N
           </motion.span>
         </Link>
